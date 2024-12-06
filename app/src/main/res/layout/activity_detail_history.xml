@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gambar" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:background="@color/buttom1"/>
+
+        <TextView
+            android:id="@+id/tv_namana"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nama"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/edit" />
+
+            <TextView
+                android:id="@+id/tv_Keterangana"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Keterangan"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_location_on_24" />
+
+            <TextView
+                android:id="@+id/tv_alamata"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="Alamat"
+                android:lines="3"
+                android:maxLines="3"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_line_weight_24"
+                android:background="@color/buttom1"/>
+
+            <TextView
+                android:id="@+id/tv_deskripsia"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_65sdp"
+                android:text="Deskripsi"
+                android:textColor="@color/black"
+                android:lines="6"
+                android:maxLines="6"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.gms.google-services'
+    id "androidx.navigation.safeargs.kotlin"
+    id 'kotlin-android-extensions'
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.wain.damkar"
+        minSdkVersion 23
+        targetSdkVersion 31
+        versionCode 2
+        versionName "2.2"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+
+    // Navigation Components
+    implementation "androidx.navigation:navigation-fragment-ktx:2.3.4"
+    implementation "androidx.navigation:navigation-ui-ktx:2.3.4"
+
+    //Restrofit
+    implementation "com.squareup.okhttp3:okhttp:3.12.1"
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.11.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //size dp/sp
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    //location & gambar
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+
+    implementation 'com.karumi:dexter:6.2.2'
+
+    //image
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+
+    //recycleview
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    //noinspection GradleCompatibleView
+    //    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:30.0.0'
+    //
+    //    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:27.1.0')
+    implementation 'com.android.support:recyclerview-v7:31.0.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-database:19.3.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'com.googlecode.libphonenumber:libphonenumber:8.9.7'
+    implementation 'com.github.joielechong:countrycodepicker:2.4.2'
+    implementation 'androidx.browser:browser:1.3.0'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+
+    //card
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+
+
+}

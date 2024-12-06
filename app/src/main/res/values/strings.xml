@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Damkar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_home">Home</string>
+    <string name="fragment_history">History"</string>
+    <string name="fragment_informasi">Informasi</string>
+    <string name="fragment_profile">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="laporan">Laporan</string>
+
+    <string-array name="kategori">
+        <item>Kebakaran</item>
+        <item>Bencana Alam</item>
+        <item>Hewan Peliharaan</item>
+        <item>Hewan Buas</item>
+    </string-array>
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+
+
+    <string name= "hyperlink"><a herf="http://wa.me/+6281389071288">WahtsApp</a></string>
+
+</resources>

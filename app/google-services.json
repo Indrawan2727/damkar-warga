@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "279212708938",
+    "project_id": "damcb-ed097",
+    "storage_bucket": "damcb-ed097.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279212708938:android:1345e1d6df455760d302b3",
+        "android_client_info": {
+          "package_name": "com.wain.damkar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279212708938-4kklbqt29at295iklbn11r0p9det2t3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wain.damkar",
+            "certificate_hash": "a811a798873f7228fa61821dcb0972e094421ed5"
+          }
+        },
+        {
+          "client_id": "279212708938-76el039ce7m7jh9an77c9rc19fudl4kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1UlqMP-2eRShQTu3D3akeBpYAFppdBS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279212708938-76el039ce7m7jh9an77c9rc19fudl4kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
